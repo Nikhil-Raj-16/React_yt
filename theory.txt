@@ -1,0 +1,6 @@
+React JS ia JavaScript library
+
+
+
+git ignore - stores that we dont want to store in github
+
