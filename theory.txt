@@ -54,3 +54,10 @@ we can use props means send data from parent to child. not child to parent
 
 e.g from App to Card 
 
+
+
+
+implement CSS to every components like button. different CSS for different buttons
+better than this is to have separate module for every thing like module will contain e.g for button
+button.jsx and button.css
+
