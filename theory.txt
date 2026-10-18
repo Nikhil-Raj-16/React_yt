@@ -4,3 +4,53 @@ React JS ia JavaScript library
 
 git ignore - stores that we dont want to store in github
 
+how to update when i want to save the changes
+
+Whenever you make changes to your code (like editing App.jsx or adding new files) and want to save and update them on GitHub, you will always use this exact 3-step process in your terminal:
+
+Bash
+# 1. Stage all your changed files
+git add .
+
+# 2. Save the snapshot locally with a message describing your update
+git commit -m "describe what you changed here"
+
+# 3. Upload the new commit to GitHub
+git push
+This "add, commit, push" loop is the standard workflow you will use every single time you want to save your progress to your repository.
+
+
+
+
+
+
+USE RAFCE to get boiler plate code in .jsx file
+
+
+
+
+
+
+
+
+
+
+
+we usually keep the App.jsx file empty and render in components so that can be easier to do
+
+like components eg - nav bar , logo, quote and manysmall things separately used for a single feature.
+
+like if notification bell will only render when notification comes not the whole website so makes the website faster.
+
+
+
+Now how we can change the data in every components as it is like function which can be used many times but now we
+now that all are same to have different data like instagram page where every post has same features and look same 
+only data is different so, we use PROPS
+
+
+
+we can use props means send data from parent to child. not child to parent
+
+e.g from App to Card 
+
