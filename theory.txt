@@ -61,3 +61,24 @@ implement CSS to every components like button. different CSS for different butto
 better than this is to have separate module for every thing like module will contain e.g for button
 button.jsx and button.css
 
+
+
+Design architecture has two types:
+
+1. Feature based means in components forms 
+2. Atomic Style e.g ek button banaya us same button ko mai har jagah usse kar skta hu
+
+means navbar mei har ek chiz alag alag manage hoga at atomic level
+
+
+for medium to large-scale applications, combining both is actually considered a best practice.
+
+They solve two different problems: Atomic Design organizes your visual UI components, while Feature-Based Architecture organizes your business logic and domain. When used together, they create a highly scalable and maintainable codebase
+
+
+
+Do NOT use it if:
+
+You are building a simple portfolio, blog, or minimum viable product (MVP). Combining both adds structural overhead and boilerplate that will slow you down on small projects. For simple apps, stick to a flat component structure or just basic Atomic design.
+
+

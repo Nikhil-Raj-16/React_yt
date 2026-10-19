@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@import 'remixicon/fonts/remixicon.css';
+
+#right::-webkit-scrollbar{
+  display: none;
+}
