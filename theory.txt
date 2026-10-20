@@ -82,3 +82,19 @@ Do NOT use it if:
 You are building a simple portfolio, blog, or minimum viable product (MVP). Combining both adds structural overhead and boilerplate that will slow you down on small projects. For simple apps, stick to a flat component structure or just basic Atomic design.
 
 
+
+
+
+Hooks in React are special function for specific tasks
+
+types of hooks:
+1. useState - manage notification counter like changing state from notification 0 to 1
+2. useReducer - manage complex logic, array ke andar change karna ho ya user ne login kiya ki nahi multiple jagah check karna hai like classroom acess to one who are logged in 
+3. useRef - used to select any DOM element instead of using in JS by queryselector. we use useRef
+4. useEffect - main code ko disturb na kiye huwe side se cycle(API calls) le gaya, side mei koi process chalana ho main program ke
+5. useMemo - optimization from rerender
+6. useContext - managaes global context, means using global var to give access of var to all
+7. useCallback - only notification getting updated not whole website for efficent website
+
+
+
