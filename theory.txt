@@ -98,3 +98,7 @@ types of hooks:
 
 
 
+
+
+JSON - JavaScript object notation
+
