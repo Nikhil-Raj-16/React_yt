@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #111;
+    color: aquamarine;
+}
+
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(8, 80, 36);
+}
+
+.nav div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav div a{
+    color: inherit;
+    text-decoration: none;
+
+}
