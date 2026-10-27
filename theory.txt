@@ -106,3 +106,11 @@ JSON - JavaScript object notation
 
 Context API - used to centralize the data so everyone have the access to it and can modify it 
 e.g if we want to manage them we can set its value light and notify everyone to change according to that value like App, Navbar, sidebar userprofile all can access the theme value
+
+
+Context API in action
+1. Create karo context - by importing createContext
+2. Provide Data
+3. use karo data ko
+
+
